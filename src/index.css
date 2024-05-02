@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Red Hat Text", sans-serif;
+}
+span{
+  color: hsl(345, 95%, 68%);
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: hsl(240, 3%, 31%);
+}
+p{
+  color: hsl(237, 18%, 59%);
+  text-align: center;
+  text-transform: uppercase;
+}
+img{
+  cursor: pointer;
+  border-radius: 5px;
+}
+img:hover{
+  background-color: hsl(345, 95%, 68%);
+}
